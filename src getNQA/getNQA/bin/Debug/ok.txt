@@ -1,0 +1,1785 @@
+login as: iskow@ipdefense
+iskow@ipdefense@17.12.32.1's password:
+
+
+------------------------Attention-------------------------------
+
+Cet equipement est la propriete du gouvernement Francais.
+Toute tentative d'acces non autorisee fera l'objet de poursuites
+tant disciplinaires que penales art 410-1, 411-1 a 414-9,
+323-1 a 323-7 du code penal.
+Contact CNMOR: 831.754.6547 ou 6581 ou 6358
+
+----------------------------------------------------------------
+
+ Press Y or ENTER to continue, N to exit.
+<RFS-B22-OSC-R1>
+<RFS-B22-OSC-R1>
+<RFS-B22-OSC-R1>dis nqa sta
+  NQA entry (admin osc_mvl_udp, tag 1) test statistics:
+    NO. : 6
+    Destination IP address: 9.2.4.81
+      Start time: 2017-06-01 14:30:39.4
+      Life time: 0 seconds
+      Send operation times: 0              Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    UDP-jitter results:
+     RTT number: 0
+      Min positive SD: 0                     Min positive DS: 0
+      Max positive SD: 0                     Max positive DS: 0
+      Positive SD number: 0                  Positive DS number: 0
+      Positive SD sum: 0                     Positive DS sum: 0
+      Positive SD average: 0                 Positive DS average: 0
+      Positive SD square sum: 0              Positive DS square sum: 0
+      Min negative SD: 0                     Min negative DS: 0
+      Max negative SD: 0                     Max negative DS: 0
+      Negative SD number: 0                  Negative DS number: 0
+      Negative SD sum: 0                     Negative DS sum: 0
+      Negative SD average: 0                 Negative DS average: 0
+      Negative SD square sum: 0              Negative DS square sum: 0
+    One way results:
+      Max SD delay: 0                        Max DS delay: 0
+      Min SD delay: 0                        Min DS delay: 0
+      Number of SD delay: 0                  Number of DS delay: 0
+      Sum of SD delay: 0                     Sum of DS delay: 0
+      Square sum of SD delay: 0              Square sum of DS delay: 0
+      SD lost packet(s): 0                   DS lost packet(s): 0
+      Lost packet(s) for unknown reason: 0
+    NO. : 5
+    Destination IP address: 9.2.4.81
+      Start time: 2017-06-01 14:25:39.4
+      Life time: 300 seconds
+      Send operation times: 5000           Receive response times: 4993
+      Min/Max/Average round trip time: 17/85/24
+      Square-Sum of round trip time: 3030435
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 7
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    UDP-jitter results:
+     RTT number: 4993
+      Min positive SD: 1                     Min positive DS: 1
+      Max positive SD: 45                    Max positive DS: 59
+      Positive SD number: 3382               Positive DS number: 1679
+      Positive SD sum: 9096                  Positive DS sum: 3531
+      Positive SD average: 2                 Positive DS average: 2
+      Positive SD square sum: 93564          Positive DS square sum: 27309
+      Min negative SD: 1                     Min negative DS: 1
+      Max negative SD: 50                    Max negative DS: 58
+      Negative SD number: 947                Negative DS number: 1707
+      Negative SD sum: 9089                  Negative DS sum: 3530
+      Negative SD average: 9                 Negative DS average: 2
+      Negative SD square sum: 117113         Negative DS square sum: 27152
+    One way results:
+      Max SD delay: 59                       Max DS delay: 70
+      Min SD delay: 5                        Min DS delay: 10
+      Number of SD delay: 4993               Number of DS delay: 4993
+      Sum of SD delay: 59872                 Sum of DS delay: 59906
+      Square sum of SD delay: 836854         Square sum of DS delay: 746132
+      SD lost packet(s): 0                   DS lost packet(s): 7
+      Lost packet(s) for unknown reason: 0
+    NO. : 4
+    Destination IP address: 9.2.4.81
+      Start time: 2017-06-01 14:20:39.5
+      Life time: 300 seconds
+      Send operation times: 5000           Receive response times: 4947
+      Min/Max/Average round trip time: 16/71/24
+      Square-Sum of round trip time: 3196586
+    Extended results:
+      Packet loss in test: 1%
+      Failures due to timeout: 53
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    UDP-jitter results:
+     RTT number: 4947
+      Min positive SD: 1                     Min positive DS: 1
+      Max positive SD: 46                    Max positive DS: 23
+      Positive SD number: 3365               Positive DS number: 1676
+      Positive SD sum: 8126                  Positive DS sum: 4963
+      Positive SD average: 2                 Positive DS average: 2
+      Positive SD square sum: 75660          Positive DS square sum: 45031
+      Min negative SD: 1                     Min negative DS: 1
+      Max negative SD: 40                    Max negative DS: 23
+      Negative SD number: 924                Negative DS number: 1713
+      Negative SD sum: 8119                  Negative DS sum: 4973
+      Negative SD average: 8                 Negative DS average: 2
+      Negative SD square sum: 98687          Negative DS square sum: 43581
+    One way results:
+      Max SD delay: 54                       Max DS delay: 37
+      Min SD delay: 5                        Min DS delay: 11
+      Number of SD delay: 4947               Number of DS delay: 4947
+      Sum of SD delay: 58251                 Sum of DS delay: 63980
+      Square sum of SD delay: 787713         Square sum of DS delay: 887508
+      SD lost packet(s): 7                   DS lost packet(s): 46
+      Lost packet(s) for unknown reason: 0
+    NO. : 3
+    Destination IP address: 9.2.4.81
+      Start time: 2017-06-01 14:15:39.5
+      Life time: 300 seconds
+      Send operation times: 5000           Receive response times: 4991
+      Min/Max/Average round trip time: 16/82/24
+      Square-Sum of round trip time: 3083504
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 9
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    UDP-jitter results:
+     RTT number: 4991
+      Min positive SD: 1                     Min positive DS: 1
+      Max positive SD: 52                    Max positive DS: 24
+      Positive SD number: 3379               Positive DS number: 1389
+      Positive SD sum: 8977                  Positive DS sum: 4202
+      Positive SD average: 2                 Positive DS average: 3
+      Positive SD square sum: 80593          Positive DS square sum: 43168
+      Min negative SD: 1                     Min negative DS: 1
+      Max negative SD: 39                    Max negative DS: 23
+      Negative SD number: 973                Negative DS number: 1471
+      Negative SD sum: 8984                  Negative DS sum: 4195
+      Negative SD average: 9                 Negative DS average: 2
+      Negative SD square sum: 107624         Negative DS square sum: 42987
+    One way results:
+      Max SD delay: 59                       Max DS delay: 35
+      Min SD delay: 5                        Min DS delay: 11
+      Number of SD delay: 4991               Number of DS delay: 4991
+      Sum of SD delay: 57795                 Sum of DS delay: 62905
+      Square sum of SD delay: 772919         Square sum of DS delay: 835385
+      SD lost packet(s): 0                   DS lost packet(s): 9
+      Lost packet(s) for unknown reason: 0
+    NO. : 2
+    Destination IP address: 9.2.4.81
+      Start time: 2017-06-01 14:10:39.5
+      Life time: 300 seconds
+      Send operation times: 5000           Receive response times: 4983
+      Min/Max/Average round trip time: 17/71/23
+      Square-Sum of round trip time: 2993158
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 17
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    UDP-jitter results:
+     RTT number: 4983
+      Min positive SD: 1                     Min positive DS: 1
+      Max positive SD: 49                    Max positive DS: 14
+      Positive SD number: 3397               Positive DS number: 1386
+      Positive SD sum: 8536                  Positive DS sum: 2550
+      Positive SD average: 2                 Positive DS average: 1
+      Positive SD square sum: 97902          Positive DS square sum: 8640
+      Min negative SD: 1                     Min negative DS: 1
+      Max negative SD: 50                    Max negative DS: 14
+      Negative SD number: 928                Negative DS number: 1494
+      Negative SD sum: 8529                  Negative DS sum: 2555
+      Negative SD average: 9                 Negative DS average: 1
+      Negative SD square sum: 117071         Negative DS square sum: 8263
+    One way results:
+      Max SD delay: 58                       Max DS delay: 26
+      Min SD delay: 5                        Min DS delay: 11
+      Number of SD delay: 4983               Number of DS delay: 4983
+      Sum of SD delay: 57639                 Sum of DS delay: 61583
+      Square sum of SD delay: 789731         Square sum of DS delay: 770009
+      SD lost packet(s): 0                   DS lost packet(s): 17
+      Lost packet(s) for unknown reason: 0
+    NO. : 1
+    Destination IP address: 9.2.4.81
+      Start time: 2017-06-01 14:05:38.6
+      Life time: 300 seconds
+      Send operation times: 5000           Receive response times: 4977
+      Min/Max/Average round trip time: 16/73/23
+      Square-Sum of round trip time: 2892331
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 23
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    UDP-jitter results:
+     RTT number: 4977
+      Min positive SD: 1                     Min positive DS: 1
+      Max positive SD: 43                    Max positive DS: 21
+      Positive SD number: 3473               Positive DS number: 1480
+      Positive SD sum: 7645                  Positive DS sum: 2887
+      Positive SD average: 2                 Positive DS average: 1
+      Positive SD square sum: 55639          Positive DS square sum: 12781
+      Min negative SD: 1                     Min negative DS: 1
+      Max negative SD: 50                    Max negative DS: 22
+      Negative SD number: 876                Negative DS number: 1578
+      Negative SD sum: 7631                  Negative DS sum: 2892
+      Negative SD average: 8                 Negative DS average: 1
+      Negative SD square sum: 84767          Negative DS square sum: 12794
+    One way results:
+      Max SD delay: 57                       Max DS delay: 34
+      Min SD delay: 5                        Min DS delay: 11
+      Number of SD delay: 4977               Number of DS delay: 4977
+      Sum of SD delay: 56147                 Sum of DS delay: 61561
+      Square sum of SD delay: 716753         Square sum of DS delay: 775505
+      SD lost packet(s): 1                   DS lost packet(s): 22
+      Lost packet(s) for unknown reason: 0
+  NQA entry (admin osc_mvl_icmp, tag 1) test statistics:
+    NO. : 2340
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 14:26:44.4
+      Life time: 271 seconds
+      Send operation times: 69             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 69
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2339
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 14:21:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2338
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 14:16:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2337
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 14:11:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2336
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 14:06:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2335
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 14:01:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2334
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:56:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2333
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:51:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2332
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:46:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2331
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:41:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2330
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:36:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2329
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:31:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2328
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:26:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2327
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:21:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2326
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:16:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2325
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:11:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2324
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:06:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2323
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 13:01:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2322
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:56:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2321
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:51:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2320
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:46:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2319
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:41:44.5
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2318
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:36:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2317
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:31:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2316
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:26:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2315
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:21:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2314
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:16:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2313
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:11:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2312
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:06:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2311
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 12:01:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2310
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:56:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2309
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:51:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2308
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:46:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2307
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:41:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2306
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:36:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2305
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:31:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2304
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:26:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2303
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:21:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2302
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:16:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2301
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:11:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2300
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:06:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2299
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 11:01:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2298
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:56:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2297
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:51:44.6
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2296
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:46:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2295
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:41:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2294
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:36:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 0
+      Min/Max/Average round trip time: 0/0/0
+      Square-Sum of round trip time: 0
+    Extended results:
+      Packet loss in test: 100%
+      Failures due to timeout: 75
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2293
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:31:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/31/18
+      Square-Sum of round trip time: 232559
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2292
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:26:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/33/18
+      Square-Sum of round trip time: 202573
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2291
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:21:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/42/18
+      Square-Sum of round trip time: 209258
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2290
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:16:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/37/18
+      Square-Sum of round trip time: 198471
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2289
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:11:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/40/18
+      Square-Sum of round trip time: 194867
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2288
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:06:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/29/17
+      Square-Sum of round trip time: 188167
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2287
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 10:01:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/31/17
+      Square-Sum of round trip time: 190247
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2286
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:56:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/36/18
+      Square-Sum of round trip time: 221027
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2285
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:51:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/34/17
+      Square-Sum of round trip time: 191484
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2284
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:46:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/34/18
+      Square-Sum of round trip time: 203881
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2283
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:41:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/30/17
+      Square-Sum of round trip time: 197250
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2282
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:36:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/31/17
+      Square-Sum of round trip time: 191786
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2281
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:31:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/37/17
+      Square-Sum of round trip time: 188937
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2280
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:26:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/32/17
+      Square-Sum of round trip time: 187472
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2279
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:21:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/20/17
+      Square-Sum of round trip time: 183186
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2278
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:16:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/19/17
+      Square-Sum of round trip time: 178720
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2277
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:11:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/20/17
+      Square-Sum of round trip time: 176800
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2276
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:06:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/19/17
+      Square-Sum of round trip time: 177526
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2275
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 09:01:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/33/17
+      Square-Sum of round trip time: 205891
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2274
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:56:44.7
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/21/17
+      Square-Sum of round trip time: 184268
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2273
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:51:44.7
+      Life time: 300 seconds
+      Send operation times: 73             Receive response times: 73
+      Min/Max/Average round trip time: 16/37/17
+      Square-Sum of round trip time: 198789
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2272
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:46:44.8
+      Life time: 300 seconds
+      Send operation times: 72             Receive response times: 72
+      Min/Max/Average round trip time: 16/23/17
+      Square-Sum of round trip time: 175271
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2271
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:41:44.8
+      Life time: 300 seconds
+      Send operation times: 72             Receive response times: 72
+      Min/Max/Average round trip time: 16/21/17
+      Square-Sum of round trip time: 176741
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2270
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:36:44.8
+      Life time: 300 seconds
+      Send operation times: 72             Receive response times: 72
+      Min/Max/Average round trip time: 16/27/17
+      Square-Sum of round trip time: 181406
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2269
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:31:44.8
+      Life time: 300 seconds
+      Send operation times: 72             Receive response times: 72
+      Min/Max/Average round trip time: 16/19/16
+      Square-Sum of round trip time: 162184
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2268
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:26:44.8
+      Life time: 300 seconds
+      Send operation times: 74             Receive response times: 74
+      Min/Max/Average round trip time: 16/18/16
+      Square-Sum of round trip time: 169189
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2267
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:21:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/38/17
+      Square-Sum of round trip time: 208810
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2266
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:16:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/38/18
+      Square-Sum of round trip time: 235349
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2265
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:11:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/35/18
+      Square-Sum of round trip time: 222282
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2264
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:06:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/33/17
+      Square-Sum of round trip time: 201765
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2263
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 08:01:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/38/17
+      Square-Sum of round trip time: 199574
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2262
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:56:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/37/18
+      Square-Sum of round trip time: 203190
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2261
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:51:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/38/17
+      Square-Sum of round trip time: 186588
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2260
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:46:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/38/17
+      Square-Sum of round trip time: 178423
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2259
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:41:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/38/17
+      Square-Sum of round trip time: 192908
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2258
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:36:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/29/17
+      Square-Sum of round trip time: 182985
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2257
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:31:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/35/17
+      Square-Sum of round trip time: 193935
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2256
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:26:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/31/17
+      Square-Sum of round trip time: 180724
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2255
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:21:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/37/17
+      Square-Sum of round trip time: 188832
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2254
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:16:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/27/17
+      Square-Sum of round trip time: 172401
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2253
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:11:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/37/17
+      Square-Sum of round trip time: 192396
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2252
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:06:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/28/16
+      Square-Sum of round trip time: 169169
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2251
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 07:01:44.8
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/18/16
+      Square-Sum of round trip time: 169610
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2250
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 06:56:44.9
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/21/17
+      Square-Sum of round trip time: 178922
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2249
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 06:51:44.9
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/20/18
+      Square-Sum of round trip time: 199948
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2248
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 06:46:44.9
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/20/18
+      Square-Sum of round trip time: 196671
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2247
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 06:41:44.9
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/21/17
+      Square-Sum of round trip time: 192682
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2246
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 06:36:44.9
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/18/16
+      Square-Sum of round trip time: 168756
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+    NO. : 2245
+    Destination IP address: 9.2.4.71
+      Start time: 2017-06-01 06:31:44.9
+      Life time: 300 seconds
+      Send operation times: 75             Receive response times: 75
+      Min/Max/Average round trip time: 16/20/16
+      Square-Sum of round trip time: 170715
+    Extended results:
+      Packet loss in test: 0%
+      Failures due to timeout: 0
+      Failures due to disconnect: 0
+      Failures due to no connection: 0
+      Failures due to sequence error: 0
+      Failures due to internal error: 0
+      Failures due to other errors: 0
+      Packet(s) arrived late: 0
+<RFS-B22-OSC-R1>

@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{A3B71008-DA19-41AC-B46C-B4D717324E0C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="getNQA/Program.cs">
+    <Files>
+      <File FileName="getNQA/File.cs" Line="61" Column="43" />
+      <File FileName="getNQA/Parse.cs" Line="23" Column="3" />
+      <File FileName="getNQA/Program.cs" Line="27" Column="33" />
+      <File FileName="getNQA/Display.cs" Line="24" Column="50" />
+      <File FileName="getNQA/Pattern.cs" Line="14" Column="20" />
+      <File FileName="getNQA/Check.cs" Line="24" Column="9" />
+      <File FileName="getNQA/Function.cs" Line="21" Column="23" />
+      <File FileName="getNQA/Struct.cs" Line="23" Column="44" />
+      <File FileName="getNQA/packages.config" Line="1" Column="1" />
+      <File FileName="../../../../../../../Library/Frameworks/Mono.framework/Versions/5.0.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="1980" Column="5" />
+      <File FileName="getNQA/addlist.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.getNQA PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

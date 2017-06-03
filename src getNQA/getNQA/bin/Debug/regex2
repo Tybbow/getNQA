@@ -1,0 +1,60 @@
+login as: iskow@ipdefense
+
+
+------------------------Attention-------------------------------
+
+Cet equipement est la propriete du gouvernement Francais.
+Toute tentative d'acces non autorisee fera l'objet de poursuites
+tant disciplinaires que penales art 410-1, 411-1 a 414-9,
+323-1 a 323-7 du code penal.
+Contact CNMOR: 831.754.6547 ou 6581 ou 6358
+
+----------------------------------------------------------------
+
+
+iskow@ipdefense@17.14.1.1's password:
+<RFZ-E20-BTP3-R1>dis nqa sta
+NQA entry (admin btp_mvl_udp, tag 1) test statistics:
+  NO. : 67
+    Start time: 2017-06-01 16:39:29.3
+    Life time: 121 seconds
+    Send operation times: 2000           Receive response times: 2000
+    Min/Max/Average round trip time: 9/84/16
+    Square-Sum of round trip time: 581792
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+    Packets out of sequence: 0
+    Packets arrived late: 0
+  UDP-jitter results:
+   RTT number: 2000
+    Min positive SD: 1                     Min positive DS: 1
+    Max positive SD: 41                    Max positive DS: 31
+    Positive SD number: 1391               Positive DS number: 481
+    Positive SD sum: 3346                  Positive DS sum: 1000
+    Positive SD average: 2                 Positive DS average: 2
+    Positive SD square-sum: 29224          Positive DS square-sum: 10660
+    Min negative SD: 1                     Min negative DS: 1
+    Max negative SD: 38                    Max negative DS: 28
+    Negative SD number: 333                Negative DS number: 484
+    Negative SD sum: 3348                  Negative DS sum: 1000
+    Negative SD average: 10                Negative DS average: 2
+    Negative SD square-sum: 43836          Negative DS square-sum: 10554
+  One way results:
+    Max SD delay: 46                       Max DS delay: 39
+    Min SD delay: 3                        Min DS delay: 7
+    Number of SD delay: 2000               Number of DS delay: 2000
+    Sum of SD delay: 18729                 Sum of DS delay: 15737
+    Square-Sum of SD delay: 221333         Square-Sum of DS delay: 134415
+    SD lost packets: 0                     DS lost packets: 0
+    Lost packets for unknown reason: 0
+  NO. : 66
+    Start time: 2017-06-01 16:34:29.3
+    Life time: 300 seconds
+    Send operation times: 5000           Receive response times: 5000
+    Min/Max/Average round trip time: 10/73/16
+    Square-Sum of round trip time: 1431683
+  Extended results:
+    Packet loss ratio: 0%

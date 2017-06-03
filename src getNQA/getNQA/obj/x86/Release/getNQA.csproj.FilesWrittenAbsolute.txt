@@ -1,0 +1,4 @@
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Release/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Release/getNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Release/getNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Release/Renci.SshNet.dll

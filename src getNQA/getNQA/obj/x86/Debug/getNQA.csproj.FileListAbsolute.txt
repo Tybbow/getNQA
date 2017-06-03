@@ -1,0 +1,8 @@
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Debug/getNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Debug/getNQA.pdb
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Debug/Renci.SshNet.dll
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Debug/Renci.SshNet.xml
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Debug/getNQA.csproj.CoreCompileInputs.cache
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Debug/getNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Debug/getNQA.pdb
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Debug/getNQA.csprojResolveAssemblyReference.cache

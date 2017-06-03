@@ -1,0 +1,11 @@
+  NO. : 210
+    Start time: 2017-05-24 11:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/13/10
+    Square-Sum of round trip time: 8453
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0

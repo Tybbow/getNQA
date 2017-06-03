@@ -1,0 +1,12 @@
+/Volumes/NO NAME/boulot/getNQA/getNQA/obj/x86/Debug/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
+/Volumes/NO NAME/boulot/getNQA/getNQA/bin/Debug/getNQA.exe.mdb
+/Volumes/NO NAME/boulot/getNQA/getNQA/bin/Debug/getNQA.exe
+/Volumes/NO NAME/boulot/getNQA/getNQA/obj/x86/Debug/getNQA.exe
+/Volumes/NO NAME/boulot/getNQA/getNQA/obj/x86/Debug/getNQA.exe.mdb
+/Volumes/NO NAME/boulot/getNQA/getNQA/bin/Debug/Renci.SshNet.dll
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Debug/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Debug/getNQA.exe.mdb
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Debug/getNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Debug/getNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Debug/getNQA.exe.mdb
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/bin/Debug/Renci.SshNet.dll

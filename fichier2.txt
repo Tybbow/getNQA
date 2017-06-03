@@ -1,0 +1,2338 @@
+login as: iskow@ipdefense
+
+
+------------------------Attention-------------------------------
+
+Cet equipement est la propriete du gouvernement Francais.
+Toute tentative d'acces non autorisee fera l'objet de poursuites
+tant disciplinaires que penales art 410-1, 411-1 a 414-9,
+323-1 a 323-7 du code penal.
+Contact CNMOR: 831.754.6547 ou 6581 ou 6358
+
+----------------------------------------------------------------
+
+
+iskow@ipdefense@17.14.1.1's password:
+
+
+<RFZ-E20-BTP3-R1>
+<RFZ-E20-BTP3-R1>
+<RFZ-E20-BTP3-R1>
+<RFZ-E20-BTP3-R1>
+<RFZ-E20-BTP3-R1>
+<RFZ-E20-BTP3-R1>dis nqa stat
+<RFZ-E20-BTP3-R1>dis nqa statistics ?
+  >             Redirect it to a file
+  >>            Redirect it to a file in append mode
+  STRING<1-32>  Administrator name
+  |             Matching output
+  <cr>
+
+<RFZ-E20-BTP3-R1>dis nqa statistics
+NQA entry (admin btp_mvl_tcp, tag 1) test statistics:
+  NO. : 252
+    Start time: 2017-05-24 14:55:01.3
+    Life time: 196 seconds
+    Send operation times: 58             Receive response times: 58
+    Min/Max/Average round trip time: 390/404/399
+    Square-Sum of round trip time: 9241950
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 251
+    Start time: 2017-05-24 14:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 380/419/399
+    Square-Sum of round trip time: 11947337
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 250
+    Start time: 2017-05-24 14:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 383/417/399
+    Square-Sum of round trip time: 11969142
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 249
+    Start time: 2017-05-24 14:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 393/405/399
+    Square-Sum of round trip time: 11982682
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 248
+    Start time: 2017-05-24 14:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 394/438/400
+    Square-Sum of round trip time: 12040887
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 247
+    Start time: 2017-05-24 14:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 372/427/400
+    Square-Sum of round trip time: 12010733
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 246
+    Start time: 2017-05-24 14:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 349/423/400
+    Square-Sum of round trip time: 12041295
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 245
+    Start time: 2017-05-24 14:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 349/422/396
+    Square-Sum of round trip time: 11818110
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 244
+    Start time: 2017-05-24 14:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 351/447/398
+    Square-Sum of round trip time: 11903298
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 243
+    Start time: 2017-05-24 14:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 352/414/396
+    Square-Sum of round trip time: 11804145
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 242
+    Start time: 2017-05-24 14:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 354/408/396
+    Square-Sum of round trip time: 11814157
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 241
+    Start time: 2017-05-24 14:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 356/405/396
+    Square-Sum of round trip time: 11815255
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 240
+    Start time: 2017-05-24 13:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 358/406/396
+    Square-Sum of round trip time: 11827868
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 239
+    Start time: 2017-05-24 13:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 360/403/396
+    Square-Sum of round trip time: 11824761
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 238
+    Start time: 2017-05-24 13:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 362/405/397
+    Square-Sum of round trip time: 11836589
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 237
+    Start time: 2017-05-24 13:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 363/406/397
+    Square-Sum of round trip time: 11837841
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 236
+    Start time: 2017-05-24 13:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 365/405/397
+    Square-Sum of round trip time: 11848884
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 235
+    Start time: 2017-05-24 13:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 367/406/397
+    Square-Sum of round trip time: 11859748
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 234
+    Start time: 2017-05-24 13:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 369/406/397
+    Square-Sum of round trip time: 11862384
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 233
+    Start time: 2017-05-24 13:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 335/464/397
+    Square-Sum of round trip time: 11875717
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 232
+    Start time: 2017-05-24 13:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 363/436/397
+    Square-Sum of round trip time: 11883270
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 231
+    Start time: 2017-05-24 13:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 374/425/398
+    Square-Sum of round trip time: 11887497
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 230
+    Start time: 2017-05-24 13:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 376/405/398
+    Square-Sum of round trip time: 11892488
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 229
+    Start time: 2017-05-24 13:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 378/404/398
+    Square-Sum of round trip time: 11896742
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 228
+    Start time: 2017-05-24 12:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 380/420/398
+    Square-Sum of round trip time: 11902298
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 227
+    Start time: 2017-05-24 12:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 382/415/398
+    Square-Sum of round trip time: 11911527
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 226
+    Start time: 2017-05-24 12:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 384/405/398
+    Square-Sum of round trip time: 11921200
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 225
+    Start time: 2017-05-24 12:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 385/401/398
+    Square-Sum of round trip time: 11921765
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 224
+    Start time: 2017-05-24 12:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 387/407/398
+    Square-Sum of round trip time: 11939391
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 223
+    Start time: 2017-05-24 12:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 389/400/398
+    Square-Sum of round trip time: 11938188
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 222
+    Start time: 2017-05-24 12:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 390/405/399
+    Square-Sum of round trip time: 11948473
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 221
+    Start time: 2017-05-24 12:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 363/436/399
+    Square-Sum of round trip time: 11957620
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 220
+    Start time: 2017-05-24 12:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 375/424/399
+    Square-Sum of round trip time: 11966873
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 219
+    Start time: 2017-05-24 12:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 373/427/399
+    Square-Sum of round trip time: 11969102
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 218
+    Start time: 2017-05-24 12:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 397/404/399
+    Square-Sum of round trip time: 11972874
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 217
+    Start time: 2017-05-24 12:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 396/405/399
+    Square-Sum of round trip time: 11983279
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 216
+    Start time: 2017-05-24 11:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 396/404/399
+    Square-Sum of round trip time: 11992122
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 215
+    Start time: 2017-05-24 11:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 397/407/400
+    Square-Sum of round trip time: 12000943
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 214
+    Start time: 2017-05-24 11:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 395/407/400
+    Square-Sum of round trip time: 12001936
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 213
+    Start time: 2017-05-24 11:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 388/434/401
+    Square-Sum of round trip time: 12114808
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 212
+    Start time: 2017-05-24 11:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 390/411/400
+    Square-Sum of round trip time: 12047972
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 211
+    Start time: 2017-05-24 11:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 320/435/396
+    Square-Sum of round trip time: 11794320
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 210
+    Start time: 2017-05-24 11:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 323/431/396
+    Square-Sum of round trip time: 11808156
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 209
+    Start time: 2017-05-24 11:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 326/410/395
+    Square-Sum of round trip time: 11737449
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 208
+    Start time: 2017-05-24 11:15:01.3
+    Life time: 300 seconds
+    Send operation times: 77             Receive response times: 66
+    Min/Max/Average round trip time: 329/402/393
+    Square-Sum of round trip time: 10235706
+  Extended results:
+    Packet loss ratio: 14%
+    Failures due to timeout: 11
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 207
+    Start time: 2017-05-24 11:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 206
+    Start time: 2017-05-24 11:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 205
+    Start time: 2017-05-24 11:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 204
+    Start time: 2017-05-24 10:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 203
+    Start time: 2017-05-24 10:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 202
+    Start time: 2017-05-24 10:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 201
+    Start time: 2017-05-24 10:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 200
+    Start time: 2017-05-24 10:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 199
+    Start time: 2017-05-24 10:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 198
+    Start time: 2017-05-24 10:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 197
+    Start time: 2017-05-24 10:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 196
+    Start time: 2017-05-24 10:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 195
+    Start time: 2017-05-24 10:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 194
+    Start time: 2017-05-24 10:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 193
+    Start time: 2017-05-24 10:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 192
+    Start time: 2017-05-24 09:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 191
+    Start time: 2017-05-24 09:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 190
+    Start time: 2017-05-24 09:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 189
+    Start time: 2017-05-24 09:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 188
+    Start time: 2017-05-24 09:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 187
+    Start time: 2017-05-24 09:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 186
+    Start time: 2017-05-24 09:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 185
+    Start time: 2017-05-24 09:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 184
+    Start time: 2017-05-24 09:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 183
+    Start time: 2017-05-24 09:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 182
+    Start time: 2017-05-24 09:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 181
+    Start time: 2017-05-24 09:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 180
+    Start time: 2017-05-24 08:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 179
+    Start time: 2017-05-24 08:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 178
+    Start time: 2017-05-24 08:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 177
+    Start time: 2017-05-24 08:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 176
+    Start time: 2017-05-24 08:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 175
+    Start time: 2017-05-24 08:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 174
+    Start time: 2017-05-24 08:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 173
+    Start time: 2017-05-24 08:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 172
+    Start time: 2017-05-24 08:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 171
+    Start time: 2017-05-24 08:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 170
+    Start time: 2017-05-24 08:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 169
+    Start time: 2017-05-24 08:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 168
+    Start time: 2017-05-24 07:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 167
+    Start time: 2017-05-24 07:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 166
+    Start time: 2017-05-24 07:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 165
+    Start time: 2017-05-24 07:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 164
+    Start time: 2017-05-24 07:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 163
+    Start time: 2017-05-24 07:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 162
+    Start time: 2017-05-24 07:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 161
+    Start time: 2017-05-24 07:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 160
+    Start time: 2017-05-24 07:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 159
+    Start time: 2017-05-24 07:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 158
+    Start time: 2017-05-24 07:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 157
+    Start time: 2017-05-24 07:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to disconnect: 0
+    Failures due to no connection: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+NQA entry (admin btp_mvl_icmp, tag 1) test statistics:
+  NO. : 252
+    Start time: 2017-05-24 14:55:01.3
+    Life time: 196 seconds
+    Send operation times: 45             Receive response times: 45
+    Min/Max/Average round trip time: 10/27/11
+    Square-Sum of round trip time: 6500
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 251
+    Start time: 2017-05-24 14:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/30/11
+    Square-Sum of round trip time: 11003
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 250
+    Start time: 2017-05-24 14:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/29/11
+    Square-Sum of round trip time: 10690
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 249
+    Start time: 2017-05-24 14:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/16/10
+    Square-Sum of round trip time: 8682
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 248
+    Start time: 2017-05-24 14:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8384
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 247
+    Start time: 2017-05-24 14:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8468
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 246
+    Start time: 2017-05-24 14:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/194/15
+    Square-Sum of round trip time: 51121
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 245
+    Start time: 2017-05-24 14:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/28/11
+    Square-Sum of round trip time: 10695
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 244
+    Start time: 2017-05-24 14:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 74
+    Min/Max/Average round trip time: 10/192/13
+    Square-Sum of round trip time: 46619
+  Extended results:
+    Packet loss ratio: 1%
+    Failures due to timeout: 1
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 243
+    Start time: 2017-05-24 14:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/13/10
+    Square-Sum of round trip time: 8451
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 242
+    Start time: 2017-05-24 14:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8554
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 241
+    Start time: 2017-05-24 14:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8428
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 240
+    Start time: 2017-05-24 13:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8258
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 239
+    Start time: 2017-05-24 13:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8384
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 238
+    Start time: 2017-05-24 13:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/15/10
+    Square-Sum of round trip time: 9048
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 237
+    Start time: 2017-05-24 13:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/11/10
+    Square-Sum of round trip time: 8256
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 236
+    Start time: 2017-05-24 13:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8472
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 235
+    Start time: 2017-05-24 13:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8300
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 234
+    Start time: 2017-05-24 13:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8321
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 233
+    Start time: 2017-05-24 13:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/11/10
+    Square-Sum of round trip time: 8214
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 232
+    Start time: 2017-05-24 13:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/14/10
+    Square-Sum of round trip time: 8394
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 231
+    Start time: 2017-05-24 13:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/11/10
+    Square-Sum of round trip time: 8382
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 230
+    Start time: 2017-05-24 13:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8342
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 229
+    Start time: 2017-05-24 13:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/14/10
+    Square-Sum of round trip time: 8400
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 228
+    Start time: 2017-05-24 12:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8300
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 227
+    Start time: 2017-05-24 12:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/11/10
+    Square-Sum of round trip time: 8214
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 226
+    Start time: 2017-05-24 12:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/16/10
+    Square-Sum of round trip time: 8433
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 225
+    Start time: 2017-05-24 12:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8342
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 224
+    Start time: 2017-05-24 12:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8132
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 223
+    Start time: 2017-05-24 12:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8258
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 222
+    Start time: 2017-05-24 12:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/13/10
+    Square-Sum of round trip time: 8331
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 221
+    Start time: 2017-05-24 12:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8302
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 220
+    Start time: 2017-05-24 12:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8216
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 219
+    Start time: 2017-05-24 12:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8174
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 218
+    Start time: 2017-05-24 12:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/11/10
+    Square-Sum of round trip time: 8193
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 217
+    Start time: 2017-05-24 12:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/11/10
+    Square-Sum of round trip time: 8193
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 216
+    Start time: 2017-05-24 11:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8174
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 215
+    Start time: 2017-05-24 11:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8365
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 214
+    Start time: 2017-05-24 11:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8323
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 213
+    Start time: 2017-05-24 11:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/11/10
+    Square-Sum of round trip time: 8340
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 212
+    Start time: 2017-05-24 11:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8258
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 211
+    Start time: 2017-05-24 11:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/15/10
+    Square-Sum of round trip time: 8471
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 210
+    Start time: 2017-05-24 11:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/13/10
+    Square-Sum of round trip time: 8453
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 209
+    Start time: 2017-05-24 11:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 75
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8449
+  Extended results:
+    Packet loss ratio: 0%
+    Failures due to timeout: 0
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 208
+    Start time: 2017-05-24 11:15:01.3
+    Life time: 300 seconds
+    Send operation times: 90             Receive response times: 79
+    Min/Max/Average round trip time: 10/12/10
+    Square-Sum of round trip time: 8679
+  Extended results:
+    Packet loss ratio: 12%
+    Failures due to timeout: 11
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 207
+    Start time: 2017-05-24 11:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 206
+    Start time: 2017-05-24 11:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 205
+    Start time: 2017-05-24 11:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 204
+    Start time: 2017-05-24 10:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 203
+    Start time: 2017-05-24 10:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 202
+    Start time: 2017-05-24 10:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 201
+    Start time: 2017-05-24 10:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 200
+    Start time: 2017-05-24 10:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 199
+    Start time: 2017-05-24 10:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 198
+    Start time: 2017-05-24 10:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 197
+    Start time: 2017-05-24 10:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 196
+    Start time: 2017-05-24 10:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 195
+    Start time: 2017-05-24 10:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 194
+    Start time: 2017-05-24 10:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 193
+    Start time: 2017-05-24 10:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 192
+    Start time: 2017-05-24 09:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 191
+    Start time: 2017-05-24 09:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 190
+    Start time: 2017-05-24 09:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 189
+    Start time: 2017-05-24 09:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 188
+    Start time: 2017-05-24 09:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 187
+    Start time: 2017-05-24 09:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 186
+    Start time: 2017-05-24 09:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 185
+    Start time: 2017-05-24 09:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 184
+    Start time: 2017-05-24 09:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 183
+    Start time: 2017-05-24 09:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 182
+    Start time: 2017-05-24 09:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 181
+    Start time: 2017-05-24 09:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 180
+    Start time: 2017-05-24 08:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 179
+    Start time: 2017-05-24 08:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 178
+    Start time: 2017-05-24 08:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 177
+    Start time: 2017-05-24 08:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 176
+    Start time: 2017-05-24 08:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 175
+    Start time: 2017-05-24 08:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 174
+    Start time: 2017-05-24 08:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 173
+    Start time: 2017-05-24 08:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 172
+    Start time: 2017-05-24 08:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 171
+    Start time: 2017-05-24 08:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 170
+    Start time: 2017-05-24 08:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 169
+    Start time: 2017-05-24 08:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 168
+    Start time: 2017-05-24 07:55:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 167
+    Start time: 2017-05-24 07:50:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 166
+    Start time: 2017-05-24 07:45:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 165
+    Start time: 2017-05-24 07:40:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 164
+    Start time: 2017-05-24 07:35:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 163
+    Start time: 2017-05-24 07:30:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 162
+    Start time: 2017-05-24 07:25:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 161
+    Start time: 2017-05-24 07:20:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 160
+    Start time: 2017-05-24 07:15:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 159
+    Start time: 2017-05-24 07:10:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 158
+    Start time: 2017-05-24 07:05:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+  NO. : 157
+    Start time: 2017-05-24 07:00:01.3
+    Life time: 300 seconds
+    Send operation times: 75             Receive response times: 0
+    Min/Max/Average round trip time: 0/0/0
+    Square-Sum of round trip time: 0
+  Extended results:
+    Packet loss ratio: 100%
+    Failures due to timeout: 75
+    Failures due to internal error: 0
+    Failures due to other errors: 0
+<RFZ-E20-BTP3-R1>
