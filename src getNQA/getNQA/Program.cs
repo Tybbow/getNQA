@@ -167,13 +167,13 @@ namespace getNQA
 
 		public static int Main(string[] args)
 		{
-			string tmp = null;
-			Console.WriteLine("Normal");
-			tmp = File.ReadAllText("./regex1");
-			ft_parse.Parse(tmp);
-			Console.WriteLine("BTP");
-			tmp = File.ReadAllText("./regex2");
-			ft_parse.Parse(tmp);
+			//string tmp = null;
+			//Console.WriteLine("Normal");
+			//tmp = File.ReadAllText("./ok.txt");
+			//ft_parse.Parse(tmp);
+			//Console.WriteLine("BTP");
+			//tmp = File.ReadAllText("./ok1.txt");
+			//ft_parse.Parse(tmp);
 			if (args.Length >= 4)
 			{
 				if (getArgs(args))

@@ -1,1 +1,6 @@
 Number;IP;Time;Lifetime;Sendoptime;Recetime;Min;Max;Avr;PacketLost;FailsTimeOut;FailsDisconnect;FailsNoConnect;FailsSeqError;FailsInterError;FailsOtherError;PacketLate;RTTnumber;MinPosSD;MaxPosSD;AvrPosSD;MinPosDS;MaxPosDS;AvrPosDS;MinNegSD;MaxNegSD;AvrNegSD;MinNegDS;MaxNegDS;AvrNegDS;MinSDdelay;MaxSDdelay;AvrSDdelay;MinDSDelay;MaxDSDelay;AvrDSDelay;PacketSDLost;PacketDSLost;PacketUnkLost
+1;9.2.4.81;6/1/2017 2:05:38 PM;300;5000;4977;16;73;23;0;23;0;0;0;0;0;0;4977;1;43;2;1;21;1;1;50;8;1;22;1;5;57;11;11;34;12;1;22;0
+2;9.2.4.81;6/1/2017 2:10:39 PM;300;5000;4983;17;71;23;0;17;0;0;0;0;0;0;4983;1;49;2;1;14;1;1;50;9;1;14;1;5;58;11;11;26;12;0;17;0
+3;9.2.4.81;6/1/2017 2:15:39 PM;300;5000;4991;16;82;24;0;9;0;0;0;0;0;0;4991;1;52;2;1;24;3;1;39;9;1;23;2;5;59;11;11;35;12;0;9;0
+4;9.2.4.81;6/1/2017 2:20:39 PM;300;5000;4947;16;71;24;1;53;0;0;0;0;0;0;4947;1;46;2;1;23;2;1;40;8;1;23;2;5;54;11;11;37;12;7;46;0
+5;9.2.4.81;6/1/2017 2:25:39 PM;300;5000;4993;17;85;24;0;7;0;0;0;0;0;0;4993;1;45;2;1;59;2;1;50;9;1;58;2;5;59;11;10;70;11;0;7;0

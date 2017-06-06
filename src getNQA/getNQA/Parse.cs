@@ -23,7 +23,7 @@ namespace getNQAParse
 
 		private static void groupBY(string parse)
 		{
-			List<ft_struct.elementtest> listudp = new List<ft_struct.elementtest>() { };
+			List<ft_struct.elementudp> listudp = new List<ft_struct.elementudp>() { };
 			List<ft_struct.elementicmp> listicmp = new List<ft_struct.elementicmp>() { };
 			List<ft_struct.elementtcp> listtcp = new List<ft_struct.elementtcp>() { };
 			List<ft_struct.tmp> listtmp = new List<ft_struct.tmp>() { };
@@ -33,32 +33,31 @@ namespace getNQAParse
 			Match match = rgx.Match(parse);
 			if (match.Success)
 			{
-				Console.WriteLine("OK");
 				MatchCollection mc = rgx.Matches(parse);
 				addparse(mc, listtmp, "udp");
-				addlist.addtest(mc, listudp);
-				//ft_file.writeFileudp(listudp, listtmp);
+				addlist.addudp(mc, listudp);
+				ft_file.writeFileudp(listudp, listtmp);
 			}
 
-			//rgx = new Regex(ft_pattern.sondeicmp());
-			//match = rgx.Match(parse);
-			//if (match.Success)
-			//{
-			//	MatchCollection mc = rgx.Matches(parse);
-			//	addparse(mc, listtmp, "icmp");
-			//	addlist.addicmp(mc, listicmp);
-			//	ft_file.writeFileicmp(listicmp, listtmp);
-			//}
+			rgx = new Regex(ft_pattern.sondeicmp());
+			match = rgx.Match(parse);
+			if (match.Success)
+			{
+				MatchCollection mc = rgx.Matches(parse);
+				addparse(mc, listtmp, "icmp");
+				addlist.addicmp(mc, listicmp);
+				ft_file.writeFileicmp(listicmp, listtmp);
+			}
 
-			//rgx = new Regex(ft_pattern.sondetcp());
-			//match = rgx.Match(parse);
-			//if (match.Success)
-			//{
-			//	MatchCollection mc = rgx.Matches(parse);
-			//	addparse(mc, listtmp, "tcp");
-			//	addlist.addtcp(mc, listtcp);
-			//	ft_file.writeFiletcp(listtcp, listtmp);
-			//}
+			rgx = new Regex(ft_pattern.sondetcp());
+			match = rgx.Match(parse);
+			if (match.Success)
+			{
+				MatchCollection mc = rgx.Matches(parse);
+				addparse(mc, listtmp, "tcp");
+				addlist.addtcp(mc, listtcp);
+				ft_file.writeFiletcp(listtcp, listtmp);
+			}
 
 		}
 

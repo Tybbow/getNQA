@@ -4,67 +4,7 @@ namespace getNQAstruct
 {
 	public static class ft_struct
 	{
-
-		public class elementtest : IEquatable<elementtest>, IComparable<elementtest>
-		{
-			public int elNumber { get; set; }
-			public string elIP { get; set; }
-			//public DateTime elTime { get; set; }
-			//public int elLifetime { get; set; }
-			//public int elSendoptime { get; set; }
-			//public int elRecetime { get; set; }
-			//public int elMin { get; set; }
-			//public int elMax { get; set; }
-			//public int elAvr { get; set; }
-			//public int elPacketLost { get; set; }
-			//public int elFailsTimeOut { get; set; }
-			//public int elFailsDisconnect { get; set; }
-			//public int elFailsNoConnect { get; set; }
-			//public int elFailsInterError { get; set; }
-			//public int elFailsOtherError { get; set; }
-			//public int elPacketLate { get; set; }
-
-			public override string ToString()
-			{
-				return elNumber + ";" + elIP + ";";
-
-				//return elNumber + ";" + elIP + ";" + elTime + ";" + elLifetime + ";" + elSendoptime + ";" + elRecetime
-				//	+ ";" + elMin + ";" + elMax + ";" + elAvr + ";" + elPacketLost + ";" + elFailsTimeOut
-				//+ ";" + elFailsDisconnect + ";" + elFailsNoConnect + ";" + elFailsInterError + ";" + elFailsOtherError
-				//+ ";" + elPacketLate;
-			}
-
-			public override bool Equals(object obj)
-			{
-				if (obj == null) return false;
-				elementtest objAselement = obj as elementtest;
-				if (objAselement == null) return false;
-				else return Equals(objAselement);
-			}
-
-			// Default comparer for element type.
-			public int CompareTo(elementtest compareelement)
-			{
-				// A null value means that this object is greater.
-				if (compareelement == null)
-					return 1;
-				else
-					return this.elNumber.CompareTo(compareelement.elNumber);
-			}
-
-			public override int GetHashCode()
-			{
-				return elNumber;
-			}
-
-			public bool Equals(elementtest other)
-			{
-				if (other == null) return false;
-				return (this.elNumber.Equals(other.elNumber));
-			}
-
-		}
-
+		
 		public class elementudp : IEquatable<elementudp>, IComparable<elementudp>
 		{
 			public int elNumber { get; set; }
