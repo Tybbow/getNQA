@@ -73,13 +73,14 @@ namespace getNQAdisplay
 			Console.WriteLine("Usage : getNQA [Options...]");
 			Console.WriteLine("\t-u,  --user  \t: username");
 			Console.WriteLine("\t-p,  --password : password");
-			Console.WriteLine("\t-h,  --host \t: host to connect");
+			Console.WriteLine("\t-h,  --host \t: host to connect, separate by ',' for multiple host");
 			Console.WriteLine("\t-po, --port \t: port ssh -- default 22");
 			Console.WriteLine("\t-t,  --time \t: time in minutes, to get a NQA router -- default 60 minutes");
 			Console.WriteLine("");
 			Console.WriteLine(" examples :");
 			Console.WriteLine("\tgetNQA -u user -p password -h example.net");
 			Console.WriteLine("\tgetNQA -u user -p password -h example.net -p 4500 -t 5");
+			Console.WriteLine("\tgetNQA -u user -p password -h 192.168.0.1,192.168.0.2,example.net -p 4500 -t 5");
 			Console.WriteLine();
 			Console.WriteLine("\tYou can leave the field password empty for Security.");
 			Console.WriteLine("\tgetNQA -u user -h example.net");

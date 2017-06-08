@@ -4,7 +4,6 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using Renci.SshNet;
-using getNQAFunc;
 using getNQA;
 
 namespace getNQAcheck

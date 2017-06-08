@@ -9,9 +9,9 @@
     <AssemblyName>getNQA</AssemblyName>
     <Description>getNQA permet de recuperer les mesures NQA sur les routeurs 3COM !</Description>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
-    <PackageVersion>1.3a</PackageVersion>
+    <PackageVersion>1.4</PackageVersion>
     <Authors>Tybbow</Authors>
-    <ApplicationIcon>..\..\..\..\..\..\Downloads\nqa-ConvertImage.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\nqa-ConvertImage.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
