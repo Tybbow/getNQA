@@ -1,5 +1,5 @@
  NO. : 1006
-    Destination IP address: 95.68.1.2
+    Destination IP address: 192.168.1.1
       Start time: 2017-05-09 08:42:33.3
       Life time: 3600 seconds
       Send operation times: 108000         Receive response times: 107792
