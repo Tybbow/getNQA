@@ -16,8 +16,9 @@ namespace getNQAstruct
 			public int elMin { get; set; }
 			public int elMax { get; set; }
 			public int elAvr { get; set; }
-			public int elPacketLost { get; set; }
+			public double elPacketLost { get; set; }
 			public int elFailsTimeOut { get; set; }
+			public double pctTimeOut { get; set; }
 			public int elFailsDisconnect { get; set; }
 			public int elFailsNoConnect { get; set; }
 			public int elFailsSeqError { get; set; }
@@ -48,16 +49,20 @@ namespace getNQAstruct
 			public int elPacketSDLost { get; set; }
 			public int elPacketDSLost { get; set; }
 			public int elPacketUnkLost { get; set; }
+			public double pctPacketSDLost { get; set; }
+			public double pctPacketDSLost { get; set; }
+			public double pctPacketUnkLost { get; set; }
 
 			public override string ToString()
 			{
-				return elNumber +  ";" + elIP + ";" + elTime +  ";" + elLifetime +  ";" + elSendoptime +  ";" + elRecetime
-					 	+  ";" + elMin +  ";" + elMax +  ";" + elAvr +  ";" + elPacketLost +  ";" + elFailsTimeOut
-						+  ";" + elFailsDisconnect +  ";" + elFailsNoConnect +  ";" + elFailsSeqError +  ";" + elFailsInterError
-					 	+  ";" + elFailsOtherError +  ";" + elPacketLate +  ";" + elRTTnumber +  ";" + elMinPosSD +  ";" + elMaxPosSD
-						+  ";" + elAvrPosSD +  ";" + elMinPosDS +  ";" + elMaxPosDS +  ";" + elAvrPosDS +  ";" + elMinNegSD +  ";" + elMaxNegSD +  ";" + elAvrNegSD
-						+  ";" + elMinNegDS +  ";" + elMaxNegDS +  ";" + elAvrNegDS +  ";" + elMinSDdelay +  ";" + elMaxSDdelay +  ";" + elAvrSDDelay
-						+  ";" + elMinDSdelay +  ";" + elMaxDSdelay + ";" + elAvrDSDelay +  ";" + elPacketSDLost +  ";" + elPacketDSLost +  ";" + elPacketUnkLost;
+				return elNumber + ";" + elIP + ";" + elTime + ";" + elLifetime + ";" + elSendoptime + ";" + elRecetime
+					+ ";" + elMin + ";" + elAvr + ";" + elMax + ";" + elPacketLost + ";" + elFailsTimeOut + ";" + pctTimeOut
+					+ ";" + elFailsDisconnect + ";" + elFailsNoConnect + ";" + elFailsSeqError + ";" + elFailsInterError
+					+ ";" + elFailsOtherError + ";" + elPacketLate + ";" + elRTTnumber + ";" + elMinPosSD + ";" + elMaxPosSD
+					+ ";" + elAvrPosSD + ";" + elMinPosDS + ";" + elMaxPosDS + ";" + elAvrPosDS + ";" + elMinNegSD + ";" + elMaxNegSD + ";" + elAvrNegSD
+					+ ";" + elMinNegDS + ";" + elMaxNegDS + ";" + elAvrNegDS + ";" + elMinSDdelay + ";" + elMaxSDdelay + ";" + elAvrSDDelay
+					+ ";" + elMinDSdelay + ";" + elMaxDSdelay + ";" + elAvrDSDelay + ";" + elPacketSDLost + ";" + elPacketDSLost + ";" + elPacketUnkLost
+					+ ";" + pctPacketSDLost + ";" + pctPacketDSLost + ";" + pctPacketUnkLost;
 			}
 
 			public override bool Equals(object obj)
@@ -102,7 +107,7 @@ namespace getNQAstruct
 			public int elMin { get; set; }
 			public int elMax { get; set; }
 			public int elAvr { get; set; }
-			public int elPacketLost { get; set; }
+			public double elPacketLost { get; set; }
 			public int elFailsTimeOut { get; set; }
 			public int elFailsDisconnect { get; set; }
 			public int elFailsNoConnect { get; set; }
@@ -113,7 +118,7 @@ namespace getNQAstruct
 			public override string ToString()
 			{
 				return elNumber + ";" + elIP + ";" + elTime + ";" + elLifetime + ";" + elSendoptime + ";" + elRecetime
-					 	+ ";" + elMin + ";" + elMax + ";" + elAvr + ";" + elPacketLost + ";" + elFailsTimeOut
+					+ ";" + elMin + ";" + elAvr + ";" + elMax + ";" + elPacketLost + ";" + elFailsTimeOut
 						+ ";" + elFailsDisconnect + ";" + elFailsNoConnect + ";" + elFailsInterError + ";" + elFailsOtherError
 						+ ";" + elPacketLate;
 			}
@@ -160,7 +165,7 @@ namespace getNQAstruct
 			public int elMin { get; set; }
 			public int elMax { get; set; }
 			public int elAvr { get; set; }
-			public int elPacketLost { get; set; }
+			public double elPacketLost { get; set; }
 			public int elFailsTimeOut { get; set; }
 			public int elFailsDisconnect { get; set; }
 			public int elFailsNoConnect { get; set; }
@@ -170,7 +175,7 @@ namespace getNQAstruct
 			public override string ToString()
 			{
 				return elNumber + ";" + elIP + ";" + elTime + ";" + elLifetime + ";" + elSendoptime + ";" + elRecetime
-					 	+ ";" + elMin + ";" + elMax + ";" + elAvr + ";" + elPacketLost + ";" + elFailsTimeOut
+					 	+ ";" + elMin + ";" + elAvr + ";" + elMax + ";" + elPacketLost + ";" + elFailsTimeOut
 						+ ";" + elFailsDisconnect + ";" + elFailsNoConnect + ";" + elFailsInterError + ";" + elFailsOtherError;
 			}
 

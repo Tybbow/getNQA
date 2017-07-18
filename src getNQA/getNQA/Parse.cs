@@ -119,25 +119,26 @@ namespace getNQAParse
 		private static string beginToStringUDP()
 		{
 			return "Number;IP;Time;Lifetime;Sendoptime;Recetime" +
-				";Min;Max;Avr;PacketLost;FailsTimeOut" +
+				";Min;Avr;Max;PacketLost;FailsTimeOut;PctTimeOut" +
 				";FailsDisconnect;FailsNoConnect;FailsSeqError;FailsInterError" +
 				";FailsOtherError;PacketLate;RTTnumber;MinPosSD;MaxPosSD" +
 				";AvrPosSD;MinPosDS;MaxPosDS;AvrPosDS;MinNegSD;MaxNegSD;AvrNegSD" +
 				";MinNegDS;MaxNegDS;AvrNegDS;MinSDdelay;MaxSDdelay;AvrSDdelay" +
-				";MinDSDelay;MaxDSDelay;AvrDSDelay;PacketSDLost;PacketDSLost;PacketUnkLost";
+				";MinDSDelay;MaxDSDelay;AvrDSDelay;PacketSDLost;PacketDSLost;PacketUnkLost" +
+				";PctPacketSDLost;PctPacketDSLost;PctPacketUnkLost";
 		}
 
 		private static string beginToStringICMP()
 		{
 			return "Number;IP;Time;Lifetime;Sendoptime;Recetime" +
-				";Min;Max;Avr;PacketLost;FailsTimeOut;FailsInterError" +
+				";Min;Avr;Max;PacketLost;FailsTimeOut;FailsInterError" +
 				";FailsOtherError";
 		}
 
 		private static string beginToStringTCP()
 		{
 			return "Number;IP;Time;Lifetime;Sendoptime;Recetime" +
-				";Min;Max;Avr;PacketLost;FailsTimeOut" +
+				";Min;Avr;Max;PacketLost;FailsTimeOut" +
 				";FailsDisconnect;FailsNoConnect;FailsInterError;FailsOtherError";
 		}
 	}

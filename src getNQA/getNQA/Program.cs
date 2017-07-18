@@ -16,23 +16,25 @@ namespace getNQA
 		public static string user = string.Empty;
 		public static string pass = string.Empty;
 		public static string[] host;
+		public static string hostNow;
 		public static int port = 0;
 		public static int time = 0;
 		public static string path = string.Empty;
 
 		public static void Start()
 		{
-			
-			ft_display.displayArgs();
 			string result = string.Empty;
 			int i = 0;
+			int j = 0;
 			StringBuilder tmpNQA = new StringBuilder();
 
 			while (i < host.Length)
 			{
+				hostNow = host[i];
+				ft_display.displayArgs();
 				try
 				{
-					var sshclient = new SshClient(host[i], port, user, pass);
+					var sshclient = new SshClient(hostNow, port, user, pass);
 					sshclient.Connect();
 					ft_function.displayColor("green", "Success Connect");
 					ft_function.displayColor("green", "Get NQA statistics. !");
@@ -44,7 +46,7 @@ namespace getNQA
 					ft_function.displayColor("green", "\tUser : " + user);
 					result = SendCommand(shellStream, "dis nqa stat");
 					tmpNQA.AppendLine(result);
-					while (ft_check.checkmore(shellStream, i++, tmpNQA))
+					while (ft_check.checkmore(shellStream, j++, tmpNQA))
 						shellStream.Write("\x20");
 					result = tmpNQA.ToString();
 					ft_parse.Parse(result);
@@ -61,7 +63,8 @@ namespace getNQA
 					ft_function.displayColor("red", "Unknow error for connect on the server " + host[i]);
 					ft_function.displayColor("red", "Are you sure of your request ??? Oo' ...");
 					ft_function.displayColor("red", "Try Again for test automatical !");
-				}	
+				}
+				i++;
 			}
 			Thread.Sleep(time * 60 * 1000);
 			Start();
@@ -101,7 +104,7 @@ namespace getNQA
 		{
 			int i = 0;
 
-			while (i <= args.Length)
+			while (i < args.Length)
 			{
 				if (args[i] == "-u" || args[i] == "--user")
 					user = (args[i + 1]);

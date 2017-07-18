@@ -27,10 +27,11 @@ namespace getNQA
 					elSendoptime = tryInt(m.Groups["Sendoptime"].Value),
 					elRecetime = tryInt(m.Groups["Recetime"].Value),
 					elMin = tryInt(m.Groups["Min"].Value),
-					elMax = tryInt(m.Groups["Max"].Value),
 					elAvr = tryInt(m.Groups["Avr"].Value),
-					elPacketLost = tryInt(m.Groups["PacketLost"].Value),
+					elMax = tryInt(m.Groups["Max"].Value),
+					elPacketLost = pctpacketLost((double)tryInt(m.Groups["Sendoptime"].Value), (double)tryInt(m.Groups["Recetime"].Value)),
 					elFailsTimeOut = tryInt(m.Groups["FailsTimeOut"].Value),
+					pctTimeOut = pct((double)(tryInt(m.Groups["FailsTimeOut"].Value)), (double)tryInt(m.Groups["Sendoptime"].Value)),
 					elFailsDisconnect = tryInt(m.Groups["FailsDisconnect"].Value),
 					elFailsNoConnect = tryInt(m.Groups["FailsNoConnect"].Value),
 					elFailsSeqError = tryInt(m.Groups["FailsSeqError"].Value),
@@ -60,7 +61,10 @@ namespace getNQA
 					elAvrDSDelay = avrSum(tryInt(m.Groups["SumDSDelay"].Value), tryInt(m.Groups["Recetime"].Value)),
 					elPacketSDLost = tryInt(m.Groups["PacketSDLost"].Value),
 					elPacketDSLost = tryInt(m.Groups["PacketDSLost"].Value),
-					elPacketUnkLost = tryInt(m.Groups["PacketUnkLost"].Value)
+					elPacketUnkLost = tryInt(m.Groups["PacketUnkLost"].Value),
+					pctPacketSDLost = pct((double)tryInt(m.Groups["PacketSDLost"].Value), (double)tryInt(m.Groups["Sendoptime"].Value)),
+					pctPacketDSLost = pct((double)tryInt(m.Groups["PacketDSLost"].Value), (double)tryInt(m.Groups["Sendoptime"].Value)),
+					pctPacketUnkLost = pct((double)tryInt(m.Groups["PacketUnkLost"].Value), (double)tryInt(m.Groups["Sendoptime"].Value)),
 				});
 			}
 			list.Sort(delegate (ft_struct.elementudp x, ft_struct.elementudp y)
@@ -84,9 +88,9 @@ namespace getNQA
 					elSendoptime = tryInt(m.Groups["Sendoptime"].Value),
 					elRecetime = tryInt(m.Groups["Recetime"].Value),
 					elMin = tryInt(m.Groups["Min"].Value),
-					elMax = tryInt(m.Groups["Max"].Value),
 					elAvr = tryInt(m.Groups["Avr"].Value),
-					elPacketLost = tryInt(m.Groups["PacketLost"].Value),
+					elMax = tryInt(m.Groups["Max"].Value),
+					elPacketLost = pctpacketLost((double)tryInt(m.Groups["Sendoptime"].Value), (double)tryInt(m.Groups["Recetime"].Value)),
 					elFailsTimeOut = tryInt(m.Groups["FailsTimeOut"].Value),
 					elFailsDisconnect = tryInt(m.Groups["FailsDisconnect"].Value),
 					elFailsNoConnect = tryInt(m.Groups["FailsNoConnect"].Value),
@@ -116,9 +120,9 @@ namespace getNQA
 					elSendoptime = tryInt(m.Groups["Sendoptime"].Value),
 					elRecetime = tryInt(m.Groups["Recetime"].Value),
 					elMin = tryInt(m.Groups["Min"].Value),
-					elMax = tryInt(m.Groups["Max"].Value),
 					elAvr = tryInt(m.Groups["Avr"].Value),
-					elPacketLost = tryInt(m.Groups["PacketLost"].Value),
+					elMax = tryInt(m.Groups["Max"].Value),
+					elPacketLost = pctpacketLost((double)tryInt(m.Groups["Sendoptime"].Value), (double)tryInt(m.Groups["Recetime"].Value)),
 					elFailsTimeOut = tryInt(m.Groups["FailsTimeOut"].Value),
 					elFailsDisconnect = tryInt(m.Groups["FailsDisconnect"].Value),
 					elFailsNoConnect = tryInt(m.Groups["FailsNoConnect"].Value),
@@ -148,6 +152,22 @@ namespace getNQA
 			int result = 0;
 			Int32.TryParse(test, out result);
 			return result;
+		}
+
+		private static double pctpacketLost(double send, double rece)
+		{
+			double tmp;
+			tmp = ((send - rece) / send) * 100;
+			tmp = Math.Round(tmp, 3, MidpointRounding.AwayFromZero);
+			return (tmp);
+		}
+
+		private static double pct(double error, double total)
+		{
+			double tmp;
+			tmp = error / total * 100;
+			tmp = Math.Round(tmp, 3, MidpointRounding.AwayFromZero);
+			return (tmp);
 		}
 
 	}

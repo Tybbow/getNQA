@@ -43,7 +43,7 @@ namespace getNQAdisplay
 		{
 			ft_function.displayColor("green", "User : " + getNQA.MainClass.user);
 			ft_function.displayColor("green", "Pass : ********** ;)");
-			ft_function.displayColor("green", "Host : " + getNQA.MainClass.host);
+			ft_function.displayColor("green", "Host : " + getNQA.MainClass.hostNow);
 			ft_function.displayColor("green", "Port : " + getNQA.MainClass.port);
 			ft_function.displayColor("green", "Time : " + getNQA.MainClass.time);
 			ft_function.displayColor("green", "Time now : " + DateTime.Now.ToString());

@@ -11,7 +11,7 @@
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <PackageVersion>1.4</PackageVersion>
     <Authors>Tybbow</Authors>
-    <ApplicationIcon>Resources\nqa-ConvertImage.ico</ApplicationIcon>
+    <ApplicationIcon>Res\nqa-ConvertImage.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,6 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Res\nqa-ConvertImage.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Res\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

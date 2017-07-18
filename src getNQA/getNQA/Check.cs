@@ -32,8 +32,8 @@ namespace getNQAcheck
 			if (string.IsNullOrEmpty(path))
 			{
 				if (string.IsNullOrEmpty(ip))
-					return (Application.StartupPath + "/NQA_" + sonde + "_" + MainClass.host + ".csv");
-				return (Application.StartupPath + "/NQA_" + sonde + "_" + ip + "_" + MainClass.host + ".csv");
+					return (Application.StartupPath + "/NQA_" + sonde + "_" + MainClass.hostNow + ".csv");
+				return (Application.StartupPath + "/NQA_" + sonde + "_" + ip + "_" + MainClass.hostNow + ".csv");
 			}
 			else
 				return (path);
