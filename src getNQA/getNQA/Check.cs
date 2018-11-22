@@ -16,7 +16,7 @@ namespace getNQAcheck
 			string tmp = string.Empty;
 
 			tmp = shellStream.Expect(new Regex((@"More")), new TimeSpan(0, 0, 5));
-			Thread.Sleep(200);
+			Thread.Sleep(100);
 			if (i == 0)
 				return (true);
 			if (tmp != null)
@@ -32,8 +32,8 @@ namespace getNQAcheck
 			if (string.IsNullOrEmpty(path))
 			{
 				if (string.IsNullOrEmpty(ip))
-					return (Application.StartupPath + "/NQA_" + sonde + "_" + MainClass.hostNow + ".csv");
-				return (Application.StartupPath + "/NQA_" + sonde + "_" + ip + "_" + MainClass.hostNow + ".csv");
+					return (Application.StartupPath + "\\NQA_" + sonde + "_" + MainClass.hostNow + "_" + MainClass.mentry + ".csv");
+				return (Application.StartupPath + "\\NQA_" + sonde + "_" + ip + "_" + MainClass.hostNow + "_" + MainClass.mentry + ".csv");
 			}
 			else
 				return (path);

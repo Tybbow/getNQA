@@ -15,11 +15,15 @@ namespace getNQA
 	{
 		public static string user = string.Empty;
 		public static string pass = string.Empty;
-		public static string[] host;
+		public static string[] host = {null};
 		public static string hostNow;
 		public static int port = 0;
 		public static int time = 0;
+		public static int verbose = 0;
+		public static int version = 0;
 		public static string path = string.Empty;
+		public static string file = string.Empty;
+		public static string mentry = string.Empty;
 
 		public static void Start()
 		{
@@ -36,21 +40,20 @@ namespace getNQA
 				{
 					var sshclient = new SshClient(hostNow, port, user, pass);
 					sshclient.Connect();
-					ft_function.displayColor("green", "Success Connect");
-					ft_function.displayColor("green", "Get NQA statistics. !");
+					ft_function.displayColor("green", "Success Connexion.");
+					ft_function.displayColor("green", "Getting NQA statistics...");
 					var shellStream = sshclient.CreateShellStream("dump", 0, 0, 0, 0, 10240);
-					Thread.Sleep(2000);
+					Thread.Sleep(1000);
 					string read = shellStream.Read();
-					if (read.Contains("ENTER"))
+					if (read.Contains("ENTER"))	
 						shellStream.Write("\x59");
-					ft_function.displayColor("green", "\tUser : " + user);
 					result = SendCommand(shellStream, "dis nqa stat");
 					tmpNQA.AppendLine(result);
 					while (ft_check.checkmore(shellStream, j++, tmpNQA))
 						shellStream.Write("\x20");
 					result = tmpNQA.ToString();
-					ft_parse.Parse(result);
-					ft_function.displayColor("green", "End Of Connect !");
+					ft_parse.Parse(result, verbose);
+					ft_function.displayColor("green", "End Of Connexion... !");
 					ft_function.displayColor("green", "Time now : " + DateTime.Now.ToString());
 					ft_function.displayColor("green", "Next Sequence in : " + time + " minute(s)");
 					ft_display.displayEnd();
@@ -62,7 +65,6 @@ namespace getNQA
 				{
 					ft_function.displayColor("red", "Unknow error for connect on the server " + host[i]);
 					ft_function.displayColor("red", "Are you sure of your request ??? Oo' ...");
-					ft_function.displayColor("red", "Try Again for test automatical !");
 				}
 				i++;
 			}
@@ -116,11 +118,24 @@ namespace getNQA
 					Int32.TryParse(args[i + 1], out port);
 				if (args[i] == "-t" || args[i] == "--time")
 					Int32.TryParse(args[i + 1], out time);
+				if (args[i] == "-f" || args[i] == "--file")
+					file = args[i + 1];
+				if (args[i] == "-v" || args[i] == "--verbose")
+					Int32.TryParse(args[i + 1], out verbose);
+				if (args[i] == "--version")
+				{
+					version = 1;
+					return (false);
+				}
 				path = null;
 				i++;
 			}
 			port = (port == 0) ? 22 : port;
 			time = (time == 0) ? 60 : time;
+			if (file != string.Empty)
+				return true;
+			if (host[0] == null || user == string.Empty)
+				return false;
 			if (string.IsNullOrEmpty(pass))
 			{
 				Console.WriteLine("");
@@ -128,9 +143,7 @@ namespace getNQA
 				pass = ReadPassword();
 				Console.WriteLine();
 			}
-			if (user != string.Empty && pass != string.Empty && host[0] != string.Empty)
-				return true;
-			return false;
+			return (true);
 		}
 
 		private static string SendCommand(ShellStream stream, string customCMD)
@@ -168,20 +181,30 @@ namespace getNQA
 
 		public static int Main(string[] args)
 		{
-			//string tmp = null;
-			//Console.WriteLine("Normal");
-			//tmp = File.ReadAllText("./ok.txt");
-			//ft_parse.Parse(tmp);
-			//Console.WriteLine("BTP");
-			//tmp = File.ReadAllText("./ok1.txt");
-			//ft_parse.Parse(tmp);
-			if (args.Length >= 4)
+			if (getArgs(args))
 			{
-				if (getArgs(args))
-						Start();
+				if (file != string.Empty)
+				{
+					string tmp = null;
+					if (File.Exists(file))
+					{
+						tmp = File.ReadAllText(file);
+						ft_function.displayColorLine("green", "Read all text in" + file + "\n");
+						ft_parse.Parse(tmp, verbose);
+					}
+					else
+						ft_function.displayColor("red", "Your file not exist, or can't read !");
+				}
+				else
+					Start();
 			}
 			else
-				ft_display.displayUsage();
+			{
+				if (version == 0)
+					ft_display.displayUsage();
+				else
+					ft_display.displayVersion();
+			}
 			return (0);
 		}
 	}
