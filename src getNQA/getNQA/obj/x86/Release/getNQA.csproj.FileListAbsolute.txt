@@ -9,3 +9,4 @@ e:/boulot/getNQA/getNQA/obj/x86/Release/getNQA.exe
 /Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Release/getNQA.csproj.CoreCompileInputs.cache
 /Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Release/getNQA.csproj.CopyComplete
 /Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Release/getNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/getNQA/src getNQA/getNQA/obj/x86/Release/getNQA.csprojAssemblyReference.cache

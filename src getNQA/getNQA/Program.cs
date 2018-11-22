@@ -27,13 +27,15 @@ namespace getNQA
 
 		public static void Start()
 		{
+			StringBuilder tmpNQA = new StringBuilder();
 			string result = string.Empty;
 			int i = 0;
 			int j = 0;
-			StringBuilder tmpNQA = new StringBuilder();
 
 			while (i < host.Length)
 			{
+				tmpNQA = null;
+				result = string.Empty;
 				hostNow = host[i];
 				ft_display.displayArgs();
 				try
