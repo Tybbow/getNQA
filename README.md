@@ -7,5 +7,5 @@
 <p></p>
 <h2>Version</h2>
 <pre>getNQA --version</pre>
-<pre>getNQA version: 1.6</pre>
+<p>getNQA version: 1.6</p>
 <p>By Tybbow</p>
